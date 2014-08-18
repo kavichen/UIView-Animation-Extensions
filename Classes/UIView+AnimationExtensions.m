@@ -130,7 +130,7 @@
     rotationAnimation.duration = duration;
     rotationAnimation.autoreverses = shouldAutoreverse;
     rotationAnimation.repeatCount = repeatCount;
-    rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+//    rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
     [self.layer addAnimation:rotationAnimation
                       forKey:@"transform.rotation.z"];
